@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="servlet-jsp-mvc-crud:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/servlet_jsp_mvc_crud_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="servlet-jsp-mvc-crud" />
+          <element id="module-source" name="servlet-jsp-mvc-crud" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.servlet.jsp.jstl-1.2.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="servlet-jsp-mvc-crud/web/Web" />
+      <element id="javaee-facet-resources" facet="servlet-jsp-mvc-crud/web/Web" />
+      <element id="module-output" name="servlet-jsp-mvc-crud" />
+    </root>
+  </artifact>
+</component>
